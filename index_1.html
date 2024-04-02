@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Dirgh jani</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2><span>Hello, I'm<br>Dirgh Jani</span></h2>
+            <h3>a Cloud and Data Enthusiast</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    
+    <section class="about" id="about">
+        <div class="heading">
+            <!-- <p>Get to Know me</p> -->
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="myPic2.jpeg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h2>I'm <b>Dirgh Jani </b>, an IT Graduate with a passion for technology, particularly in the realms of cloud computing, data analytics/science and software development. </h2> 
+                <p>
+                    With expertise and experience in these areas, I'm driven to leverage cutting-edge solutions to drive innovation and create impactful outcomes. Let's connect and talk more about how we can collaborate to drive success in the ever-evolving tech landscape!
+                    <br>- Dedicated and resourceful Site Reliability Engineer with a passion for leveraging automation and cloud technologies to enhance system performance and ensure seamless operations.
+                    <br>- Experienced in managing Splunk projects within Managed Services environments, adept at integrating various technologies such as Puppet, Jenkins, and AWS Cloud to drive project success.
+                    <br>- Worked on Terraform automation, CI/CD Pipelines and proficient in developing customized solutions to meet organizational needs.
+                    <br>- Passionate in leveraging data analytics tools and techniques to derive valuable insights for informed decision-making.
+                    <br>- Adept at developing scalable and efficient software solutions tailored to meet business requirements.
+                    <br>- Committed to continuous learning and innovation in a fast-paced technical landscape.
+                    <br>- Characterized as a self-initiating utility player who possesses a deep-rooted understanding of planning, prioritization, project, and time management.</p><br>
+                   
+                <div class="heading bottom">
+                    <a href="resume.pdf" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Dirgh Jani<br>
+                        <b>Age:</b> 24
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> janidirgh07@gmail.com<br>
+                        <b>Location:</b> Toronto, Ontario, Canada
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Projects</h2>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <h3>Automation For Installation Of Splunk App</h3>
+                <p>This project involved the creation of a Splunk architecture using automation. I utilized Terraform for safe and
+                    efficient infrastructure building, changing, and versioning. The Jenkins pipeline was implemented for continuous
+                    testing and integration, creating a Splunk cluster architecture for the installation of the Splunk App. Additionally,
+                    I used Ansible playbook for the installation steps and scripts needed to install the app on the Splunk cluster
+                    architecture.</p>
+                
+            </div>
+            <div class="testimonialBx">
+                <h3>Authentication Using Liveness Test with AWS</h3>
+                <p>Developed and applied regulatory policies for authentication worldwide to prevent identity theft, fraud, and money
+                    laundering. Collected and stored client details, along with valid government ID proof, using KYC methods.
+                    Utilized Python libraries NumPy, time, dlib, and cv2 to implement an AWS Rekognition-based method for liveness
+                    detection in biometric verification, preventing the use of photographs in place of real individuals</p>
+            </div>
+            <div class="testimonialBx">
+                <h3>Chat Application</h3>
+                <p>The Android Application built with JAVA as backend with almost all the features the normal messaging app
+                    provides. Simple, Reliable Messaging to Message your friends and family for free. The Application uses the
+                    Internet service to send the message to avoid the charges of Standard SMS. You can also share media like Photo,etc
+                    as well.</p>
+            </div>
+            <div class="testimonialBx">
+                <h3>Chatbot deployed to Facebook Messenger using Cloud computing</h3>
+                <p>This project utilized Amazon Web Services as its platform and involved the development of a chatbot. To create
+                    the chatbot, I conducted surveys with several restaurants and cafes to identify the problems they faced. I used
+                    backend services such as Amazon Lex and AWS Lambda. Once developed, the chatbot was deployed on the
+                    Facebook Messenger page of the cafe.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for freelance work if the right project<br> comes along, Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>41 Garfella Drive, Etobicoke, Ontario</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>(647) 649-3120</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>janidirgh07@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <!-- <div class="icon">
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div> -->
+                        <div class="icon">
+                            <a href="https://twitter.com/janidirgh07" target="_blank">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/dirgh-jani/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <!-- <div class="icon">
+                            <a href="https://www.instagram.com" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+   
+    <footer class="copyright">
+        <p>&copy; 2024,Dirgh Jani, All rights reserved</p>
+    </footer>
+</body>
+</html>

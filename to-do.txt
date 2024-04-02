@@ -1,0 +1,2 @@
+- Verify content
+- reduce space between "Experience" and "Project" sections
